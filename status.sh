@@ -1,7 +1,7 @@
 #!/bin/sh
 
 while true; do
-	xsetroot -name "$(date +%H:%M:%S)"
+	xsetroot -name "$( date +'%T | %A | %d/%m/%Y')"
 	sleep 1
 done
 
